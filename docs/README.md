@@ -6,25 +6,25 @@ Wrench is an educational project designed to explore different types of processo
 **Table of Contents**
 
 - [Wrench Documentation](#wrench-documentation)
-    - [File Types and Formats](#file-types-and-formats)
-    - [Supported Architectures](#supported-architectures)
-    - [Assembly Program Structure](#assembly-program-structure)
-        - [Comments](#comments)
-        - [Labels](#labels)
-        - [Data Section](#data-section)
-        - [Text Section](#text-section)
-        - [Setting Section Addresses](#setting-section-addresses)
-    - [Configuration Files](#configuration-files)
-        - [Configuration File Structure](#configuration-file-structure)
-        - [Configuration Options](#configuration-options)
-            - [`limit`](#limit)
-            - [`memory_size`](#memory_size)
-            - [`memory_mapped_io`](#memory_mapped_io)
-            - [`reports`](#reports)
-                - [`name`](#name)
-                - [`slice`](#slice)
-                - [`view`](#view)
-                - [`assert`](#assert)
+  - [File Types and Formats](#file-types-and-formats)
+  - [Supported Architectures](#supported-architectures)
+  - [Assembly Program Structure](#assembly-program-structure)
+    - [Comments](#comments)
+    - [Labels](#labels)
+    - [Data Section](#data-section)
+    - [Text Section](#text-section)
+    - [Setting Section Addresses](#setting-section-addresses)
+  - [Configuration Files](#configuration-files)
+    - [Configuration File Structure](#configuration-file-structure)
+    - [Configuration Options](#configuration-options)
+      - [`limit`](#limit)
+      - [`memory_size`](#memory_size)
+      - [`memory_mapped_io`](#memory_mapped_io)
+      - [`reports`](#reports)
+        - [`name`](#name)
+        - [`slice`](#slice)
+        - [`view`](#view)
+        - [`assert`](#assert)
 
 <!-- markdown-toc end -->
 
@@ -49,6 +49,7 @@ Wrench currently supports the following architectures, each with its own instruc
 - [F32a](./f32a.md) - Stack-based 32-bit architecture
 - [M68k](./m68k.md) - Motorola 68000-inspired architecture
 - [RISC-IV](./risc-iv.md) - RISC-V-inspired 32-bit architecture
+- [E2K](./e2k.md) - Elbrus 2000-inspired architecture
 
 ## Assembly Program Structure
 
